@@ -1,0 +1,12 @@
+<Project>
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+<!--    <WarningsAsErrors>nullable</WarningsAsErrors>-->
+  </PropertyGroup>
+
+    <ItemGroup>
+    <AdditionalFiles Include="$(ProjectDir)\BannedSymbols.txt" />
+  </ItemGroup>
+
+</Project>
